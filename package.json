@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/acecera/FriendFinder#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "inquirer": "^5.1.0"
   }
 }
