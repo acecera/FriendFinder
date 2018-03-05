@@ -9,7 +9,7 @@ module.exports = function (app) {
     
     app.post("/api/new", function(req, res) {
         var newFriend = req.body;
-        var newScore = newFriend.scores;
+        var newScore = newFriend.score;
         var bestMatch = 100;
 
         for (var i = 0; i < friends.length; i++) {
